@@ -4,14 +4,27 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.19.2",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "lodash": "^4.17.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dikiogres/blog-website-ejs.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dikiogres/blog-website-ejs/issues"
+  },
+  "homepage": "https://github.com/dikiogres/blog-website-ejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
